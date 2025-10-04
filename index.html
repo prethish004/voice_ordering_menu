@@ -648,29 +648,6 @@ function startRecording() {
 }
 
 
-//  function startRecording() {
-//   startBtn.disabled = true;
-//   stopBtn.disabled = false;
-
-//   navigator.mediaDevices.getUserMedia({ audio: true }).then(stream => {
-//     mediaRecorder = new MediaRecorder(stream);
-//     audioChunks = [];
-//     mediaRecorder.ondataavailable = e => audioChunks.push(e.data);
-//     mediaRecorder.onstop = () => {
-//       const blob = new Blob(audioChunks, { type: "audio/wav" });
-//       const file = new File([blob], "recording.wav", { type: "audio/wav" });
-//       document.getElementById("audioUpload").files = createFileList(file);
-//     };
-//     mediaRecorder.start();
-//   });
-// }
-
-// function stopRecording() {
-//   stopBtn.disabled = true;
-//   startBtn.disabled = false;
-
-//   if (mediaRecorder) mediaRecorder.stop();
-// }
  let sessionId = "";
 
   function generateSessionId() {
@@ -682,95 +659,7 @@ function startRecording() {
      return dataTransfer.files;
    }
  
-  //  function processAudio() {
-  //    const input = document.getElementById("audioUpload");
-  //    const processBtn = document.querySelector("button[onclick='processAudio()']");
-     
-  //    if (!input.files.length) {
-  //      alert("Please record or upload a WAV file.");
-  //      return;
-  //    }
  
-  //    processBtn.disabled = true;
-  //    processBtn.textContent = "⏳ Processing...";
- 
-  //    const formData = new FormData();
-  //    formData.append("file", input.files[0]);
- 
-  //    fetch("http://3.90.36.66:8000/process/", {
-  //      method: "POST",
-  //      body: formData,
-  //    })
-  //      .then(res => res.json())
-  //      .then(data => {
-  //        document.getElementById("transcriptionText").innerText = data.transcription || "No text found";
-  //        appendToTable(data.order || []);
-  //        document.getElementById("gptResponseText").innerText = `Final Response: ${data.gpt_response || "N/A"}`;
-  //        document.getElementById("matchAccuracy").innerText = `Accuracy: ${data.accuracy || 0}%`;
-  //        document.getElementById("unmatchedItems").innerText = `❌ Unmatched Items: ${data.unmatched?.join(", ") || "None"}`;
-  //      })
-  //      .catch(err => {
-  //        alert("Error processing audio.");
-  //      })
-  //      .finally(() => {
-  //        processBtn.disabled = false;
-  //        processBtn.textContent = "📅 Process";
-  //      });
-   //}
-// function processAudio() {
-//   const input = document.getElementById("audioUpload");
-//   const processBtn = document.querySelector("button[onclick='processAudio()']");
-
-//   if (!input.files.length) {
-//     alert("Please record or upload a WAV file.");
-//     return;
-//   }
-//   if (!sessionId) sessionId = generateSessionId();  // 🔥 Create session only once
-
-//   processBtn.disabled = true;
-//   processBtn.textContent = "⏳ Processing...";
-
-//   const formData = new FormData();
-//   formData.append("file", input.files[0]);
-//   formData.append("session_id", sessionId); // or dynamically generate a session ID if needed
-
-//   fetch("http://127.0.0.1:8000/process/", {
-//     method: "POST",
-//     body: formData,
-//   })
-//     .then(res => res.json())
-//     .then(data => {
-//       // 🗣️ Transcription
-//       document.getElementById("transcriptionText").innerText =
-//         data.transcription || "No text found";
-
-//       document.getElementById("translatedText").innerText =
-//         `🌐 Translated: ${data.translated_transcript || "N/A"}`;
-
-//       // 📦 Final Order Table
-//       appendToTable(data.order || []);
-
-//       // 💬 GPT Raw Response (matched items)
-//       document.getElementById("gptResponseText").innerText =
-//         `🧠 GPT Matched Items: ${data.gpt_response || "N/A"}`;
-
-//       // 🟡 Unavailable Items
-//       document.getElementById("unavailableItems").innerText =
-//         `⚠️ Unavailable Items: ${data.unavailable || "None"}`;
-
-//       // ✅ Accuracy
-//       document.getElementById("matchAccuracy").innerText =
-//         `🎯 Match Accuracy: ${data.accuracy || 0}%`;
-//     })
-//     .catch(err => {
-//       alert("❌ Error processing audio.");
-//       console.error(err);
-//     })
-//     .finally(() => {
-//       processBtn.disabled = false;
-//       processBtn.textContent = "📅 Process";
-//     });
-// }
 function processAudio() {
   const input = document.getElementById("audioUpload");
   const processBtn = document.querySelector("button[onclick='processAudio()']");
@@ -999,47 +888,6 @@ setTimeout(() => {
         });
     }
 
-    // function submitDetailedFeedback() {
-    //   const issues = [...document.querySelectorAll("input[name='issue']:checked")].map(cb => cb.value);
-    //   const resultText = document.getElementById("detailed-feedback-result");
-    
-    //   const gptResponse = document.getElementById("gptResponseText").textContent || "";
-    //   const rows = document.querySelectorAll("#orderTable tbody tr");
-    //   const order = [];
-    
-    //   rows.forEach(row => {
-    //     const item = row.children[1]?.textContent || "";
-    //     const rate = parseFloat(row.children[2]?.textContent || "0");
-    //     const qty = parseInt(row.children[3]?.querySelector(".qty")?.textContent || "0");
-    //     const total = parseFloat(row.children[4]?.textContent || "0");
-    
-    //     if (item && !isNaN(rate) && !isNaN(qty)) {
-    //       order.push({ Item: item, Rate: rate, Quantity: qty, Total: total });
-    //     }
-    //   });
-    
-    //   fetch("http://127.0.0.1:8000/feedback/", {
-    //     method: "POST",
-    //     headers: {
-    //       "Content-Type": "application/json"
-    //     },
-    //     body: JSON.stringify({
-    //       feedback: "down",
-    //       issues: issues,
-    //       gpt_response: gptResponse,
-    //       final_order: order
-    //     })
-    //   })
-    //     .then(res => res.json())
-    //     .then(data => {
-    //       resultText.textContent = "✅ Thanks for your detailed feedback!";
-    //       document.getElementById("feedback-result").textContent = "";
-    //     })
-    //     .catch(err => {
-    //       resultText.textContent = "⚠️ Failed to submit feedback.";
-    //     });
-    // }
-
 // Show popup when ready
 function showFeedbackPopup() {
   document.getElementById("popup-overlay").style.display = "flex";
@@ -1200,6 +1048,7 @@ function submitDetailedPopupFeedback() {
 
  </body>
  </html>
+
 
 
 
