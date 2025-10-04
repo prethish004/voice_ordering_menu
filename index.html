@@ -697,7 +697,7 @@ function startRecording() {
   //    const formData = new FormData();
   //    formData.append("file", input.files[0]);
  
-  //    fetch("http://54.242.200.63:8000/process/", {
+  //    fetch("http://3.90.36.66:8000/process/", {
   //      method: "POST",
   //      body: formData,
   //    })
@@ -791,7 +791,7 @@ function processAudio() {
   // 🟡 NEW: Send the live transcript too
   formData.append("live_transcript", liveTranscript || "");
 
-  fetch("http://54.242.200.63:8000//process/", {
+  fetch("http://3.90.36.66:8000/process/", {
     method: "POST",
     body: formData,
   })
@@ -978,7 +978,7 @@ setTimeout(() => {
         return; // Wait for detailed feedback submission
       }
     
-      fetch("http://54.242.200.63:8000/feedback/", {
+      fetch("http://3.90.36.66:8000/feedback/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -1104,7 +1104,7 @@ function submitDetailedPopupFeedback() {
     }
   });
 
-  fetch("http://54.242.200.63:8000/feedback/", {
+  fetch("http://3.90.36.66:8000/feedback/", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
@@ -1200,5 +1200,6 @@ function submitDetailedPopupFeedback() {
 
  </body>
  </html>
+
 
 
