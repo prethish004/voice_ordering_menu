@@ -521,7 +521,7 @@ recognition.start();
   form.innerHTML = ""; // Clear previous content
 
   // Populate from CSV or fixed list
-  fetch('./menu (3).csv')
+  fetch('./menu.csv')
     .then(res => res.text())
     .then(csv => {
       const lines = csv.trim().split('\n').slice(1);
@@ -572,7 +572,7 @@ function addItems() {
    });
  
    function loadMenu() {
-     fetch('./menu (3).csv')
+     fetch('./menu.csv')
        .then(res => res.text())
        .then(csv => {
          const lines = csv.trim().split('\n').slice(1);
@@ -1200,3 +1200,4 @@ function submitDetailedPopupFeedback() {
 
  </body>
  </html>
+
