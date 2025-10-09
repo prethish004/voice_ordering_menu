@@ -1,0 +1,323 @@
+Item_id,Category,Item_Name,Price
+1,variety rice & extras,veg fried rice set,7
+2,variety rice & extras,south Indian set meal,2
+3,variety rice & extras,north Indian set meal,10
+4,variety rice & extras,briyani set meal,10
+5,variety rice & extras,sweet Pongal,9
+6,variety rice & extras,veg pulav,10
+7,variety rice & extras,curd rice,2
+8,variety rice & extras,jain set meal,8
+9,variety rice & extras,lemon rice,3
+10,variety rice & extras,sambar rice,3
+11,variety rice & extras,tamarind rice,6
+12,variety rice & extras,vegetable,5
+13,variety rice & extras,mini south Indian meal,6
+14,variety rice & extras,veg briyani rice only,4
+15,variety rice & extras,Pongal,5
+16,variety rice & extras,white rice,4
+17,variety rice & extras,sambar,1
+18,variety rice & extras,pulikulambu,1
+19,variety rice & extras,rasam,10
+20,variety rice & extras,curd,2
+21,variety rice & extras,payasam of the day,5
+22,variety rice & extras,S.I appalam,4
+23,variety rice & extras,kurma curry,9
+24,variety rice & extras,raitha,6
+25,variety rice & extras,kootu,2
+26,variety rice & extras,poriyal,7
+27,variety rice & extras,veg chicken rice,5
+28,thosai,pizza thosai,6
+29,thosai,cheese thosai,7
+30,thosai,mysore masala,6
+31,thosai,paper masala,9
+32,thosai,onion masala,8
+33,thosai,onion uthappam,1
+34,thosai,rava mysore masala,5
+35,thosai,ghee onion rava,6
+36,thosai,onion rava,5
+37,thosai,plain thosai,3
+38,thosai,masala thosai,7
+39,thosai,paper thosai,3
+40,thosai,onion thosai,2
+41,thosai,ghee paper,6
+42,thosai,ghee masala thosai,8
+43,thosai,ghee onion masala,6
+44,thosai,rava thosai,7
+45,thosai,rava onion masala,7
+46,thosai,ghee rava onion masala,1
+47,thosai,ghee thosai,8
+48,thosai,rava masala,10
+49,thosai,uthappam,2
+50,thosai,tomato uthappam,3
+51,thosai,mint thosai,7
+52,thosai,cheese tomato thosai,5
+53,thosai,rava ghee,4
+54,thosai,appam jalah,8
+55,thosai,podi thosai,1
+56,thosai,podi thosai ghee,5
+57,thosai,ghee rava masala,2
+58,thosai,set thosai vadai curry,3
+59,thosai,curry masala,5
+60,thosai,black pepper masala thosai,8
+61,thosai,panner thosai,10
+62,thosai,veg uthappam,8
+63,thosai,tomato onion uthappam,2
+64,thosai,paruppu adai,4
+65,thosai,mint masala thosai,4
+66,thosai,truffle masala thosai,3
+67,thosai,butter thosai,9
+68,thosai,cheese masala thosai,7
+69,thosai,rava cheese thosai,5
+70,Indian bread,chapathi ,2
+71,Indian bread,bathura,1
+72,Indian bread,prata,7
+73,Indian bread,murtaba,9
+74,Indian bread,puri ,3
+75,Indian bread,chapathi roll,6
+76,Indian bread,kothu prata,10
+77,Indian bread,aloo prata set,3
+78,Indian bread,chilli prata,7
+79,Indian bread,cheese prata,10
+80,Indian bread,keema prata,4
+81,Indian bread,onion prata,3
+82,Indian bread,aloo prata - no curry,10
+83,South Indian snacks,curry puf,10
+84,South Indian snacks,ragi idiyappam ,5
+85,South Indian snacks,idly,6
+86,South Indian snacks,sambar idly,7
+87,South Indian snacks,uppuma,9
+88,South Indian snacks,appam(2pcs),10
+89,South Indian snacks,curd vadai,10
+90,South Indian snacks,idiyappam,6
+91,South Indian snacks,sulian,7
+92,South Indian snacks,sambar vadai,5
+93,South Indian snacks,podi idly,4
+94,South Indian snacks,masala vadai set(2 pc ),9
+95,South Indian snacks,rasam idly,5
+96,South Indian snacks,rasam vadai,1
+97,South Indian snacks,banana baji(3 pcs),7
+98,South Indian snacks,chilli baji(3pcs),5
+99,South Indian snacks,onion pakoda,6
+100,South Indian snacks,onion bonda(6 pcs),9
+101,South Indian snacks,potato bonda,9
+102,north indian /tandoori,sheek kebab,4
+103,north indian /tandoori,kashmiri naan set,3
+104,north indian /tandoori,cheese naan set,9
+105,north indian /tandoori,garlic naan set,4
+106,north indian /tandoori,plain naan set,6
+107,north indian /tandoori,tandoori roti set,8
+108,north indian /tandoori,tawa chapathi set,9
+109,north indian /tandoori,butter naan set,5
+110,north indian /tandoori,tandoori prata set,4
+111,north indian /tandoori,dal makhni,4
+112,north indian /tandoori,dal fry,5
+113,north indian /tandoori,paneer tikka,7
+114,north indian /tandoori,abr kebab,7
+115,north indian /tandoori,palak paneer,10
+116,north indian /tandoori,mutter panner,6
+117,north indian /tandoori,plain naan no curry,8
+118,north indian /tandoori,paneer butter masala,8
+119,north indian /tandoori,gobi manchurian,7
+120,north indian /tandoori,butter naan no curry,10
+121,north indian /tandoori,aloo capsicum,9
+122,north indian /tandoori,romali roti set,6
+123,north indian /tandoori,garlic naan no curry,8
+124,north indian /tandoori,kashmiri naan  no curry,10
+125,north indian /tandoori,masala kulcha  no curry,2
+126,north indian /tandoori,peshawari naan set,3
+127,north indian /tandoori,peshawari roti set,9
+128,north indian /tandoori,kadai paneer,1
+129,north indian /tandoori,gobi 65,10
+130,north indian /tandoori,romali roti no curry,1
+131,north indian /tandoori,cheese naan ,6
+132,north indian /tandoori,randoori roti no curry,2
+133,north indian /tandoori,idly manchurian,3
+134,north indian /tandoori,chilly mushroom,7
+135,north indian /tandoori,mixed vegetable(semi gravy),9
+136,north indian /tandoori,aloo gobi,7
+137,north indian /tandoori,mushroom masala,7
+138,north indian /tandoori,aloo mattar,10
+139,north indian /tandoori,channa masala,1
+140,chaat,pani puri,5
+141,chaat,sev puri,8
+142,chaat,dahi puri,1
+143,chaat,bhel puri,6
+144,chaat,pav bhaji,3
+145,chaat,vada pav,10
+146,chaat,cheese pav bhaji,3
+147,chaat,bread channa bhaji,10
+148,chaat,bread channa chaat,3
+149,chaat,cutlet dahi chaat,3
+150,chaat,cutlet channa chaat,6
+151,chaat,papadi dahi chaat,1
+152,chaat,samosa dahi chaat,4
+153,chaat,samosa channa chaat,4
+154,chaat,aloo channa tikki,8
+155,chaat,szechwan finger,4
+156,chaat,dahi kachori(2 pcs),5
+157,chaat,veg cutlet(2 pc),2
+158,chaat,plain pav,8
+159,chaat,onion rings(9 pcs),10
+160,chaat,aloo channa chaat,10
+161,chaat,samosa chaat,9
+162,chaat,masala puri,2
+163,chaat,papadi chaat,9
+164,chaat,aloo chaat,1
+165,chaat,cutlet chaat,8
+166,hot beverages,masala tea,4
+167,hot beverages,coffee,6
+168,hot beverages,milo,8
+169,hot beverages,ginger tea,3
+170,hot beverages,tea,3
+171,hot beverages,milk,8
+172,hot beverages,horlicks,4
+173,burger/pizza,burger with fries,10
+174,burger/pizza,burger without fries,2
+175,burger/pizza,abr veggie pizza,9
+176,burger/pizza,tomato cheese toast,8
+177,burger/pizza,garlic cheese toast,10
+178,burger/pizza,puthina cheese toast,8
+179,burger/pizza,veg.sandwich,1
+180,burger/pizza,masala sandwich,8
+181,burger/pizza,fries,3
+182,burger/pizza,palak paneer pizza,5
+183,daily special,idly podi powder,1
+184,daily special,mock meat soya mysore,9
+185,daily special,masala noodles,2
+186,daily special,mothakam,9
+187,daily special,kolukattai,9
+188,daily special,rice puttu ,10
+189,daily special,ragi puttu ,2
+190,daily special,mock pepper soya chicken,2
+191,daily special,meen hoon,8
+192,daily special,boli,9
+193,daily special,mee goreng,2
+194,daily special,veg noodles,1
+195,daily fresh,onion salad,7
+196,daily fresh,mix veg salad,8
+197,daily fresh,soup of the day,3
+198,daily fresh,abr sp beeda,4
+199,sweets,kesari,2
+200,sweets,laddu,7
+201,sweets,jangiri,8
+202,sweets,jelabi,1
+203,sweets,mysore pak,8
+204,sweets,fruit burfi,3
+205,sweets,chocolate burfi,6
+206,sweets,pista burfi,10
+207,sweets,soan papdi,1
+208,sweets,athirasam,4
+209,sweets,rava laddu,2
+210,sweets,nei urundai,9
+211,sweets,bombay halwa,8
+212,sweets,orissa halwa,2
+213,sweets,karachi halwa,5
+214,sweets,beetroot halwa,6
+215,sweets,milk kova,8
+216,sweets,bathusa,2
+217,sweets,milk burfi,8
+218,sweets,kaju burfi,2
+219,sweets,badam halwa,3
+220,sweets,carrot halwa,3
+221,sweets,mini jalebi(10 pcs),2
+222,sweets,coconut burfi,7
+223,tiitbits,mixture,5
+224,tiitbits,muruku,3
+225,tiitbits,viral muruku,7
+226,tiitbits,kara sev,3
+227,tiitbits,kara boondi,6
+228,tiitbits,sweet sev,2
+229,tiitbits,sweet boondi,2
+230,tiitbits,ketti pakoda,3
+231,tiitbits,bitter gord chips,8
+232,tiitbits,ola pakoda,8
+233,tiitbits,omapodi,8
+234,cold beverages,watermelon juice,6
+235,cold beverages,vanilla milk shake,3
+236,cold beverages,mango milk shake,5
+237,cold beverages,can drinks,8
+238,cold beverages,jackfruit lassi,5
+239,cold beverages,badam gheer,4
+240,cold beverages,mango lassi,4
+241,cold beverages,sweet lassi,10
+242,cold beverages,salt lassi,6
+243,cold beverages,rose milk,7
+244,cold beverages,orange juice,10
+245,cold beverages,lime juice,5
+246,cold beverages,jaljeera,9
+247,cold beverages,butter milk,8
+248,cold beverages,apple juice,6
+249,cold beverages,mixed fruit juice,9
+250,cold beverages,carrot juice,4
+251,cold beverages,chocolate milk shake,2
+252,cold beverages,ice bended milo,10
+253,cold beverages,ice coffee,10
+254,cold beverages,mineral water,5
+255,cold beverages,strawberry milk shake,5
+256,cold beverages,choco chips milk shake,6
+257,cold beverages,pineapple juice,3
+258,cold beverages,tomato juice,4
+259,cold beverages,abr spl cold cofffee,1
+260,cold beverages,ice tea,5
+261,house warming,ven pongal,6
+262,house warming,vadai,10
+263,house warming,chutney- coconut,5
+264,house warming,chutney- onion,2
+265,SUPREME SET,Mock Chicken + Potato Curry,4
+266,SUPREME SET,Mee Hoon (white),8
+267,SUPREME SET,Chilli Sauce,9
+268,MINI MUNCH,Veg Meehoon,4
+269,MINI MUNCH,Cauliflower Sambal,5
+270,MINI MUNCH,Chutney - Mint,10
+271,MINI MUNCH,Samosa - Small,8
+272,North Indian Package,Paneer Pakoda,1
+273,North Indian Package,Alu Prata,2
+274,North Indian Package,Veg Pulao,5
+275,North Indian Package,Shahi Paneer,6
+276,North Indian Package,Nargis Kofta,10
+277,North Indian Package,Boondi Raita,2
+278,North Indian Package,rasamalai,6
+279,North Indian Package,garden green salad,2
+280,North Indian Package,fruit punch,5
+281,North Indian Package,papad,2
+282,North Indian Package,pickle,6
+283,Deluxe Tiffin,Mini Sambar Idly (5pcs),6
+284,Deluxe Tiffin,Veg.Kurma,6
+285,Deluxe Tiffin,Samosa,10
+286,Deluxe Tiffin,Gulab Jamun,8
+287,Deluxe Tiffin,Sambar-Tiffin,6
+288,TIFFIN SET,Mini Veg Uthappam,8
+289,TIFFIN SET,Chutney - Onion,10
+290,TIFFIN SET,Chappathi,5
+291,TIFFIN SET,Mint Chutney,2
+292,BIRTHDAY SPECIAL,Green Peas Pulao,7
+293,BIRTHDAY SPECIAL,Butter Naan,3
+294,BIRTHDAY SPECIAL,Mock Mutton Chittinadu,2
+295,BIRTHDAY SPECIAL,Chilli Gobi,2
+296,BIRTHDAY SPECIAL,Mixed Raitha,5
+297,BIRTHDAY SPECIAL,Cutlet,9
+298,BIRTHDAY SPECIAL,Appalam,6
+299,THE ROYAL TREAT,Vegetable Briyani (White),1
+300,THE ROYAL TREAT,Paner Butter Masala,4
+301,PREMIUM PACKAGE,Mock Pepper Chicken,7
+302,PREMIUM PACKAGE,Tofu Sambal,5
+303,PREMIUM PACKAGE,Brinjal Pachadi,7
+304,PREMIUM PACKAGE,Paruppu Payasam,10
+305,PREMIUM PACKAGE,Vadai - Meals,3
+306,SIMPLE SUPREME,Mock Chicken Mysore,1
+307,SIMPLE SUPREME,Mango Pachadi,8
+308,SIMPLE SUPREME,Semiya Pal Payasam,8
+309,PARIMARAL SPECIAL,Ghee Dhal,3
+310,PARIMARAL SPECIAL,Meals Sambar,10
+311,PARIMARAL SPECIAL,Morru Kulambu,10
+312,PARIMARAL SPECIAL,Mini Chappathi,4
+313,PARIMARAL SPECIAL,Cabbage Poriyal,6
+314,PARIMARAL SPECIAL,Mock Multon Mysore,5
+315,THE REGULAR MEAL,Puli Kulambu,6
+316,THE REGULAR MEAL,Brinjal Poriyal,6
+317,OFFICE HI-TEA,Chappathi Roll,4
+318,OFFICE HI-TEA,Curry Puff,9
+319,BREAKFAST TREAT,Potato Masala,5
+320,THE BRUNCH,Veg Bringi Rice Bath,2
+321,THE BRUNCH,Onion Curd Pachadi,8
+322,THE BRUNCH,Thuvaiyal - Coriander,1
